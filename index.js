@@ -1,0 +1,1 @@
+const name = "world"; const emoji = "✨"; const box = "═".repeat(10); console.log(`Hello ${name} ${emoji}`); console.log(box); const arr = [1,2,3]; const [a,...rest] = arr; console.log(`Destructured: ${a} rest: ${rest}`); module.exports = { greeting: `Hello ${name}`, box };
